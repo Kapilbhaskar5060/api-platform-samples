@@ -25,7 +25,7 @@ This repository contains a collection of sample API proxies that you can deploy 
 
 The samples provide a jump-start for developers who wish to design and create Apigee Edge API proxies. Each proxy sample includes a `deploy.sh` and `invoke.sh` script. These scripts let you easily deploy and run the proxies. 
 
-In addition, you'll find:
+Also, you'll find:
 
 * API proxy schemas that you can reference
 * Tools for deploying proxies to Apigee Edge
@@ -80,13 +80,13 @@ We make it easy:
 
     `./deploy.sh`
 
-**Note:** If you already have the proxy deployed, the script will undeploy it first, then redeploy a new revision. 
+**Note:** If you already have the proxy deployed, the script will un deploy it first, then redeploy a new revision. 
 
 Output like this means a successful deployment:
 
 ```
     Imported new proxy version 3
-    Undeploying revision 2 in same environment and path:
+    Undeploying revision 2 in the same environment and path:
     Environment: test
       Revision: 3 BasePath = /
       State: error
@@ -106,7 +106,7 @@ We make this easy too! Each sample API proxy directory contains a script, `invok
 
    `chmod 744 invoke.sh`
 
-4. Open the `invoke.sh` file and take a look at the code. Basically, the invoke scripts make `curl` requests to Apigee Edge. In some cases, `invoke.sh` performs other setup tasks, such as creating products, developer apps, and other entities on Edge.
+4. Open the `invoke.sh` file and take a look at the code. They invoke scripts to make `curl` requests to Apigee Edge. In some cases, `invoke.sh` performs other setup tasks, such as creating products, developer apps, and other entities on Edge.
 
     **Tip:** Always open `invoke.sh` and look through it before executing it -- this will give you valuable insight into how the API proxy is called and any setup steps that are performed. 
 
@@ -119,7 +119,7 @@ We make this easy too! Each sample API proxy directory contains a script, `invok
 
 Feel free to modify and build upon the sample proxies. You can make changes in the Edge management UI or by editing the proxy XML files locally and redeploying. Whichever approach is comfortable for you. 
 
->Tip: If you use Sublime for local development, check out the [Sweetlime](https://github.com/apigee/Sweetlime) project on GitHub. Sweetlime is a Sublime plugin for developing API proxies for Apigee Edge. 
+>Tip: If you use Sublime for local development, check out the [Sweetlime](https://github.com/apigee/Sweetlime) project on GitHub. Sweet lime is a Sublime plugin for developing API proxies for Apigee Edge. 
 
 Simply redeploy the proxies for changes to take effect. 
 
@@ -184,8 +184,7 @@ The Apigee Edge docs are [here](https://docs.apigee.com).
 
 Copyright © 2018 Apigee Corporation
 
-Licensed under the Apache License, Version 2.0 (the "License"); you may 
-not use this file except in compliance with the License. You may obtain 
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain 
 a copy of the License at
 
 http://www.apache.org/licenses/LICENSE-2.0
